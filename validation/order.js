@@ -1,0 +1,3 @@
+/*
+this will validate all orders before they are send to the database
+*/

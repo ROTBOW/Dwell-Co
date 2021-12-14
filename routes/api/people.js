@@ -1,0 +1,5 @@
+/*
+
+This is the api route for people that will be in the thank you page
+
+*/
