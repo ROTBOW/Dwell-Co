@@ -4,18 +4,18 @@ const Schema = mongoose.Schema;
 
 const PersonSchema = new Schema(
     { 
-        fname: {
+        name: {
             type: String,
             required: true,
-        },
-        lname: {
-            type: String,
-            required: false,
         },
         imgs: {
             type: String,
             required: false,
         },
+        textBlock: {
+            type: String,
+            required: false
+        }
 
     }
 )
