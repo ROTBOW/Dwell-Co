@@ -9,6 +9,8 @@ const passport = require('passport');
 const path = require('path');
 const { ExpressPeerServer } = require('peer');
 
+const people = require('./routes/api/people');
+
 
 mongoose
   .connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
@@ -34,7 +36,7 @@ if (process.env.NODE_ENV === 'production') {
   app.use('/peerjs', peerServer)
 }
 
-// app.use('/api/users', users);
+app.use('/api/people', people);
 // app.use('/api/events', events);
 
 

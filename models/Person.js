@@ -8,7 +8,7 @@ const PersonSchema = new Schema(
             type: String,
             required: true,
         },
-        imgs: {
+        img: {
             type: String,
             required: false,
         },

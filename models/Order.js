@@ -27,7 +27,10 @@ const OrderSchema = new Schema(
         data: {
             type: String,
             required: true
-        }
+        },
+    },
+    {
+        timestamps: true
     }
 )
 
