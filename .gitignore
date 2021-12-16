@@ -1,3 +1,8 @@
+/frontend/node_modules
+/frontend/bundle.js
+/frontend/bundle.js.map
+
+
 node_modules
 config/keys-dev.js
 package-lock.json
