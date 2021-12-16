@@ -11,6 +11,7 @@ const { ExpressPeerServer } = require('peer');
 
 const people = require('./routes/api/people');
 const orders = require('./routes/api/orders');
+const packages = require('./routes/api/packages')
 
 
 mongoose
@@ -39,6 +40,7 @@ if (process.env.NODE_ENV === 'production') {
 
 app.use('/api/people', people);
 app.use('/api/orders', orders);
+app.use('/api/packages', packages)
 
 
 const port = process.env.PORT || 5000;
