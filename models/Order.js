@@ -24,10 +24,14 @@ const OrderSchema = new Schema(
             type: Number,
             required: true
         },
-        data: {
+        survey: {
             type: String,
             required: true
         },
+        package: {
+            type: String,
+            required: true
+        }
     },
     {
         timestamps: true

@@ -6,7 +6,6 @@ This is the api route for people that will be in the thank you page
 const express = require('express');
 const router = express.Router();
 const Person = require('../../models/Person');
-// const validatePersonInput = require('../../validation/')
 
 
 //get all people
