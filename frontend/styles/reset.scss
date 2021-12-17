@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import './variables.scss';
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -24,7 +25,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: inherit;
 	font: inherit;
-    font-family: Inter;
+  font-family: Inter;
 	vertical-align: baseline;
   
 }
@@ -68,7 +69,7 @@ footer, header, figcaption, nav, section {
   border: 0;
   padding: 0;
   outline: 0;
-  background: transparent;
+  background-color: $background-color;
   box-sizing: border-box;
   color: inherit;
   text-align: inherit;
